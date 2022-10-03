@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(44, 177, 204);
+  height: 100vh;
+  width: 100vw;
+}
+
+.image-container {
+  /* height: 100%;
+  width: 100%; */
+  top: 0%;
+  left: 0%;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+/* EARTH: */
+.earth1-image {
+  display: flex;
+  position: relative;
+  top: 0rem;
+  left: 0rem;
+}
+
+/* CARS: */
+.cars-image {
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  animation: cars-rotate 70s infinite;
+}
+
+@keyframes cars-rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* AIRPLANES: */
+.airplanes-image {
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  animation: airplanes-rotate 30s infinite;
+}
+
+@keyframes airplanes-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* AIRBALLOONS 1: */
+.airbns1-image {
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  animation: airbns1-rotate 45s infinite;
+}
+
+@keyframes airbns1-rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* AIRBALLOONS 2: */
+.airbns2-image {
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  animation: airbns2-rotate 40s infinite;
+}
+
+@keyframes airbns2-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* AIRBALLOONS 3: */
+.airbns3-image {
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  animation: airbns3-rotate 60s infinite;
+}
+
+@keyframes airbns3-rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* BIRDS: */
+.birds-image {
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  animation: birds-rotate 10s infinite;
+}
+
+@keyframes birds-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* CLOUDS: */
+.clouds-image {
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  animation: clouds-rotate 200s infinite;
+  z-index: -1;
+}
+
+@keyframes clouds-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
